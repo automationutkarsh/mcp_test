@@ -1,0 +1,4 @@
+configured_endpoints: 2
+openapi_spec_url: https://storage.googleapis.com/stainless-sdk-openapi-specs/acme-corporation-automationutkarsh%2Fmcp-test-9b1895ec11b80a652bd9f54fe47b170cf6a6c111cdf9f1ebbf070d1bfcd6b13f.yml
+openapi_spec_hash: f945f511e8ccadd499a35d55d6c05618
+config_hash: 433cf245b469e0c6c90197b381443293

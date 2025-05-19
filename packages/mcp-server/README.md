@@ -9,8 +9,8 @@ It is generated with [Stainless](https://www.stainless.com/).
 Because it's not published yet, clone the repo and build it:
 
 ```sh
-git clone git@github.com:stainless-sdks/mcp-test-typescript.git
-cd mcp-test-typescript
+git clone git@github.com:automationutkarsh/mcp_test.git
+cd mcp_test
 ./scripts/bootstrap
 ./scripts/build
 ```
@@ -40,7 +40,7 @@ For clients with a configuration JSON, it might look something like this:
   "mcpServers": {
     "mcp_test_api": {
       "command": "node",
-      "args": ["/path/to/local/mcp-test-typescript/packages/mcp-server", "--client=claude", "--tools=all"],
+      "args": ["/path/to/local/mcp_test/packages/mcp-server", "--client=claude", "--tools=all"],
       "env": {
         "MCP_TEST_API_KEY": "My API Key"
       }

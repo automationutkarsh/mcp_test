@@ -8,6 +8,8 @@ export const metadata: Metadata = {
   resource: 'automations',
   operation: 'write',
   tags: [],
+  httpMethod: 'post',
+  httpPath: '/v4/automations/deploy',
 };
 
 export const tool: Tool = {

@@ -8,6 +8,8 @@ export const metadata: Metadata = {
   resource: 'authentication',
   operation: 'write',
   tags: [],
+  httpMethod: 'post',
+  httpPath: '/v2/authentication',
 };
 
 export const tool: Tool = {

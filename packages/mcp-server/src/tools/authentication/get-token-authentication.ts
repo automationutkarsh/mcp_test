@@ -1,5 +1,7 @@
 // File generated from our OpenAPI spec by Stainless. See CONTRIBUTING.md for details.
 
+import { asTextContentResult } from 'mcp-test-mcp/tools/types';
+
 import { Tool } from '@modelcontextprotocol/sdk/types.js';
 import type { Metadata } from '../';
 import McpTest from 'mcp-test';
@@ -25,9 +27,9 @@ export const tool: Tool = {
   },
 };
 
-export const handler = (client: McpTest, args: Record<string, unknown> | undefined) => {
+export const handler = async (client: McpTest, args: Record<string, unknown> | undefined) => {
   const body = args as any;
-  return client.authentication.getToken(body);
+  return asTextContentResult(await client.authentication.getToken(body));
 };
 
 export default { metadata, tool, handler };

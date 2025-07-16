@@ -1,10 +1,9 @@
 // File generated from our OpenAPI spec by Stainless. See CONTRIBUTING.md for details.
 
 import { maybeFilter } from 'mcp-test-mcp/filtering';
-import { asTextContentResult } from 'mcp-test-mcp/tools/types';
+import { Metadata, asTextContentResult } from 'mcp-test-mcp/tools/types';
 
 import { Tool } from '@modelcontextprotocol/sdk/types.js';
-import type { Metadata } from '../';
 import McpTest from 'mcp-test';
 
 export const metadata: Metadata = {
